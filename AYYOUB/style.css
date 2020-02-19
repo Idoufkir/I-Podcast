@@ -271,7 +271,7 @@ body{
 
 .groupe-buttons {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-around;	
 
 
 }
@@ -308,11 +308,10 @@ body{
 	
 }
 .g-podcast {
-    border: 1px solid #333;
+    border: 1px solid #FFF;
 	width: 26%;
-    /* margin-right: 26px; */
-    /* margin-top: 20px; */
-    text-align: center;
+	text-align: center;
+	border-radius: 100px;
     
 }
 .g-podcast p {
@@ -380,11 +379,6 @@ body{
 		flex-direction: column;
 		padding: 10px;
 		justify-content: space-between;
-
-	}
-	.g-podcast  {
-		/* margin-top: 150%; */
-		/* margin-bottom: -10px; */
 
 	}
 	.test {
