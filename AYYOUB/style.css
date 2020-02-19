@@ -50,7 +50,6 @@ body{
 .navbar ul li a.active,
 .navbar ul li a:hover{
 	background: red;
-	border-radius: 2px;
 }
 .center {
 	display: flex;
