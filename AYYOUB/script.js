@@ -67,11 +67,12 @@ function menuPodcast () {
 
 }
 function href() {
-        window.location = "POD1.html";
+        window.location = "pod1.html";
 }
 function href() {
-        window.location = "POD2.html";
+        window.location = "pod2.html";
 }
 function href() {
-        window.location = "POD3.html";
+        window.location = "pod3.html";
+        
 }
