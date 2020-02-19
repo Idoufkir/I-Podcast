@@ -58,10 +58,20 @@ function menuPodcast () {
         // list.insertBefore(global);
         
         document.body.appendChild(global);
+
       
         
 
 
         
 
+}
+function href() {
+        window.location = "POD1.html";
+}
+function href() {
+        window.location = "POD2.html";
+}
+function href() {
+        window.location = "POD3.html";
 }
