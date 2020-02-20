@@ -4,46 +4,42 @@
 $color: chocolate;
 $black: black;
 
-.navbar {
-    position: fixed;
-    height: 80px;
-    width: 100%;
-    top: 0;
-    left: 0;
-    background: rgba(0, 0, 0, 0.4);
+.navbar{
+	/* position: fixed; */
+	height: 80px;
+	width: 100%;
+	/* top: 0; */
+	/* left: 0; */
+	background: rgba(0,0,0,0.4);
 }
-
-.navbar .logo {
-    width: 200px;
-    height: auto;
-    padding: 10px 100px;
+.navbar .logo{
+	width: 200px;
+	height: auto;
+	margin-left: 10px;
+	/* padding: 10px 100px; */
 }
-
-.navbar ul {
-    float: right;
-    margin-right: 20px;
+.navbar ul{
+	float: right;
+	margin-right: 20px;
 }
-
-.navbar ul li {
-    list-style: none;
-    margin: 0 8px;
-    display: inline-block;
-    line-height: 80px;
+.navbar ul li{
+	list-style: none;
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 80px;
 }
-
-.navbar ul li a {
-    font-size: 20px;
-    font-family: 'Roboto', sans-serif;
-    color: white;
-    padding: 6px 13px;
-    text-decoration: none;
-    transition: .4s;
+.navbar ul li a{
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	padding: 6px 13px;
+	text-decoration: none;
+	transition: .4s;
 }
-
 .navbar ul li a.active,
-.navbar ul li a:hover {
-    background: red;
-    border-radius: 2px;
+.navbar ul li a:hover{
+	background: red;
+	border-radius: 2px;
 }
 
 .container {
@@ -101,14 +97,15 @@ $black: black;
 
 }
 #liste div{
-background-color: rgb(166, 224, 224);
+background-color: rgb(98, 104, 104);
 margin: 0px;
 padding: 0px;
 margin-left: 235px;
 margin-right: 222px;
+margin-top: 10px;
 }
 #liste div:hover{
-    background-color: #7dbbb8;
+    background-color: #4a6e6e;
 }
 
 #liste #listeTitle {
@@ -116,6 +113,18 @@ display: flex;
 flex-direction: row;
 justify-content: space-around;
 
+}
+h4 {
+    margin-left: 117px;
+    margin-top: -40px;
+    float: left;
+    padding: 5px;
+    overflow: hidden;
+}
+h5 {
+        margin-right: 86px;
+        float: right;
+        margin-top: -49px;
 }
 .arrows {
     display: flex;
@@ -137,11 +146,11 @@ justify-content: space-around;
     justify-content: space-around;
 }
 .input1 input{
+    background-color: #999999;
     text-align: center;
     margin-top: 186px;
     margin-left: 20px;
     height: 40px;
-    border-radius: 35px;
     border-color: #97f6f3;
     display: flex;
 	flex-direction: column;
@@ -150,12 +159,9 @@ justify-content: space-around;
     margin-top: 10px;
 }
 .input2 input{
-    // width: 50%;
+    background-color: #999999;
     text-align: center;
-    // margin-top: -166px;
-    // margin-left: 970px;
     height: 40px;
-    border-radius: 35px;
     border-color: #97f6f3;
     display: flex;
 	flex-direction: column;
@@ -165,8 +171,8 @@ justify-content: space-around;
 
 }
 #data {
+    background-color: #999999;
     height: 40px;
-    border-radius: 35px;
     border-color: #97f6f3;
     display: flex;
 	flex-direction: column;
@@ -181,12 +187,10 @@ justify-content: space-around;
 
 }
 .add{
-    background-color:#97f6f3;
+    background-color:#ff0504;
     width: 100px;
     height: 40px;
     box-shadow: 2px 3px #f04222;
-    border-color: #97f6f3;
-    border-radius: 40px;
     font-size: 15px;
     width: 200px;
 
@@ -199,7 +203,7 @@ justify-content: space-around;
 }
 
 body {
-background-color: #b1cac6;
+background-color: #828887;
 overflow-x: hidden;
 }
 

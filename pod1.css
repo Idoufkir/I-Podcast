@@ -1,17 +1,18 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 .navbar {
-  position: fixed;
+  /* position: fixed; */
   height: 80px;
   width: 100%;
-  top: 0;
-  left: 0;
+  /* top: 0; */
+  /* left: 0; */
   background: rgba(0, 0, 0, 0.4);
 }
 
 .navbar .logo {
   width: 200px;
   height: auto;
-  padding: 10px 100px;
+  margin-left: 10px;
+  /* padding: 10px 100px; */
 }
 
 .navbar ul {
@@ -102,15 +103,16 @@
 }
 
 #liste div {
-  background-color: #a6e0e0;
+  background-color: #626868;
   margin: 0px;
   padding: 0px;
   margin-left: 235px;
   margin-right: 222px;
+  margin-top: 10px;
 }
 
 #liste div:hover {
-  background-color: #7dbbb8;
+  background-color: #4a6e6e;
 }
 
 #liste #listeTitle {
@@ -123,6 +125,20 @@
           flex-direction: row;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+}
+
+h4 {
+  margin-left: 117px;
+  margin-top: -40px;
+  float: left;
+  padding: 5px;
+  overflow: hidden;
+}
+
+h5 {
+  margin-right: 86px;
+  float: right;
+  margin-top: -49px;
 }
 
 .arrows {
@@ -155,11 +171,11 @@
 }
 
 .input1 input {
+  background-color: #999999;
   text-align: center;
   margin-top: 186px;
   margin-left: 20px;
   height: 40px;
-  border-radius: 35px;
   border-color: #97f6f3;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -176,9 +192,9 @@
 }
 
 .input2 input {
+  background-color: #999999;
   text-align: center;
   height: 40px;
-  border-radius: 35px;
   border-color: #97f6f3;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -195,8 +211,8 @@
 }
 
 #data {
+  background-color: #999999;
   height: 40px;
-  border-radius: 35px;
   border-color: #97f6f3;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -218,13 +234,11 @@
 }
 
 .add {
-  background-color: #97f6f3;
+  background-color: #ff0504;
   width: 100px;
   height: 40px;
   -webkit-box-shadow: 2px 3px #f04222;
           box-shadow: 2px 3px #f04222;
-  border-color: #97f6f3;
-  border-radius: 40px;
   font-size: 15px;
   width: 200px;
 }
@@ -237,7 +251,7 @@
 }
 
 body {
-  background-color: #b1cac6;
+  background-color: #828887;
   overflow-x: hidden;
 }
 
