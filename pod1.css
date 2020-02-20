@@ -69,21 +69,21 @@
   float: left;
   margin-left: 20px;
   margin-top: 24px;
-  color: chocolate;
+  color: red;
 }
 
 .p {
   margin-top: 30px;
   font-size: 20px;
   margin-left: 25px;
-  color: black;
+  color: #f3ecec;
 }
 
 .p2 {
   margin-top: 130px;
   font-size: 30px;
   margin-left: -230px;
-  color: black;
+  color: #e9e0e0;
 }
 
 .contact {
@@ -92,8 +92,6 @@
   margin-right: 238px;
   background: #7dbbb8;
   border-radius: 60px;
-  -webkit-box-shadow: 2px 3px #f04222;
-          box-shadow: 2px 3px #f04222;
   padding: 70px;
   font-size: 29px;
   padding-top: 32px;
@@ -103,12 +101,13 @@
 }
 
 #liste div {
-  background-color: #626868;
+  background-color: rgba(0, 0, 0, 0.4);
   margin: 0px;
   padding: 0px;
   margin-left: 235px;
   margin-right: 222px;
   margin-top: 10px;
+  color: white;
 }
 
 #liste div:hover {
@@ -133,12 +132,14 @@ h4 {
   float: left;
   padding: 5px;
   overflow: hidden;
+  color: white;
 }
 
 h5 {
   margin-right: 86px;
   float: right;
   margin-top: -49px;
+  color: white;
 }
 
 .arrows {
@@ -168,15 +169,15 @@ h5 {
           flex-direction: row;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  position: relative;
+  right: -3%;
+  margin-top: 33px;
 }
 
 .input1 input {
-  background-color: #999999;
+  background-color: rgba(0, 0, 0, 0.4);
   text-align: center;
-  margin-top: 186px;
-  margin-left: 20px;
   height: 40px;
-  border-color: #97f6f3;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -187,15 +188,17 @@ h5 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 500px;
-  margin-top: 10px;
+  width: 600px;
+  margin-left: 100px;
+  margin-top: 9px;
+  color: white;
+  font-size: 20px;
 }
 
 .input2 input {
-  background-color: #999999;
+  background-color: rgba(0, 0, 0, 0.4);
   text-align: center;
   height: 40px;
-  border-color: #97f6f3;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -206,14 +209,16 @@ h5 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 500px;
+  width: 600px;
   margin-top: 10px;
+  margin-right: 200px;
+  color: white;
+  font-size: 20px;
 }
 
 #data {
-  background-color: #999999;
+  background-color: rgba(0, 0, 0, 0.4);
   height: 40px;
-  border-color: #97f6f3;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -224,8 +229,10 @@ h5 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 500px;
+  width: 600px;
   margin-top: 10px;
+  color: white;
+  font-size: 20px;
 }
 
 .button {
@@ -234,13 +241,12 @@ h5 {
 }
 
 .add {
-  background-color: #ff0504;
+  background-color: red;
   width: 100px;
   height: 40px;
-  -webkit-box-shadow: 2px 3px #f04222;
-          box-shadow: 2px 3px #f04222;
   font-size: 15px;
   width: 200px;
+  margin-left: 20px;
 }
 
 .icon {
@@ -251,7 +257,7 @@ h5 {
 }
 
 body {
-  background-color: #828887;
+  background-image: url(bg0.jpg);
   overflow-x: hidden;
 }
 

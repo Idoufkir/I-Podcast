@@ -50,7 +50,6 @@ body{
 .navbar ul li a.active,
 .navbar ul li a:hover{
 	background: red;
-	border-radius: 2px;
 }
 .center {
 	display: flex;
@@ -120,6 +119,7 @@ body{
 	text-align: center;
 	color: #fff;
 	box-shadow: 0 10px 40px #ffb;
+	cursor: pointer;
 
 }
 
@@ -144,6 +144,7 @@ body{
 	text-align: center;
 	text-align: center;
 	box-shadow: 0 10px 40px #ffb;
+	cursor: pointer;
   }
   .test3 {
 	background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,.6)), url('https://www.thehiddenwhy.com/wp-content/uploads/2019/09/tedtalksdaily.jpg');
@@ -155,6 +156,7 @@ body{
 	text-align: center;
 	color: #333;
 	box-shadow: 0 10px 40px #ffb;
+	cursor: pointer;
 
   }
   .test2 p {
@@ -164,13 +166,13 @@ body{
 	padding: 0px;
     width: 100%;
 }
-  }
   .test3 p {
 	position: relative;
-	color: white;
+	color: #fff;
 	text-transform: uppercase;
-	bottom: 10px;
-	left: 180px;
+	/* bottom: 10px; */
+	vertical-align: middle;
+
   }
   .inputs{
 	display: flex;
@@ -255,9 +257,20 @@ body{
 	flex-wrap: wrap;
 
 }
+
+/* .test :hover {
+    transform: scale(1.1);
+  }
+.test2 :hover .test2{
+    transform: scale(1.1);
+  }
+.test3 :hover .test3{
+    transform: scale(1.1);
+  } */
+
 .groupe-buttons {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-around;	
 
 
 }
@@ -294,20 +307,23 @@ body{
 	
 }
 .g-podcast {
-    border: 1px solid #333;
+    border: 1px solid #FFF;
 	width: 26%;
-    /* margin-right: 26px; */
-    /* margin-top: 20px; */
-    text-align: center;
+	text-align: center;
     
 }
 .g-podcast p {
-	color: #fff;
+	color: #FFF;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #b9240a;
+	line-height: 200%;
 
 }
 .g-podcast h1 {
-	color: #333;
+	color: #FFF;
+	opacity: 1;
 
+	
 }
 
 .global g-podcast {
@@ -319,15 +335,8 @@ body{
 	
 	height: 300px;
 	line-height: 300px;
-	background-size: cover;
-	/* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); */
 	position: relative;
-	text-align: center;
-	color: #fff;
 	box-shadow: 0 10px 40px #ffb;
-	background-size: cover;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11px;
 	display: flex;
 	flex-wrap: wrap;
 
@@ -335,17 +344,22 @@ body{
 }
 .test1 h1 {
 	text-align: center;
-	margin-left: 100px;
-	
+	display: inline-block;
+	background-color: rgba(0,0,0,.6);
+	padding: 0px;
+	width: 100%;
+	font-size: 23px;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	position: relative;
+	vertical-align: middle;	
 }
-.g-podcast p {
-    /* padding: 10px; */
-    font-family: Arial, Helvetica, sans-serif;
-}
+
 .global {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+	width: 100%;
+	padding: 10px;
 }
 .global g-podcast {
     margin-left: 10px;
@@ -363,11 +377,6 @@ body{
 		flex-direction: column;
 		padding: 10px;
 		justify-content: space-between;
-
-	}
-	.g-podcast  {
-		/* margin-top: 150%; */
-		/* margin-bottom: -10px; */
 
 	}
 	.test {
