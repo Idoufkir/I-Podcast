@@ -149,10 +149,10 @@ h5 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 29%;
-  height: 20vh;
-  margin-left: 743px;
-  padding-left: 32px;
+  width: 18%;
+  height: 18vh;
+  margin-left: 606px;
+  padding-left: 133px;
 }
 
 .arrows i {
@@ -236,7 +236,7 @@ h5 {
 }
 
 .button {
-  margin-left: 735px;
+  margin-left: 636px;
   margin-top: 55px;
 }
 
@@ -289,25 +289,25 @@ body {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
   .container img {
     margin-left: 125px;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
   .contact {
     margin-left: 125px;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
   .input {
     margin-left: 15px;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
   .arrows {
     margin-left: 146px;
   }
