@@ -127,7 +127,7 @@
   margin-right: 5px;
 }
 
-#liste #listeTitle {
+#liste #listeT {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -137,10 +137,16 @@
           flex-direction: row;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  background-color: black;
+  color: white;
+  font-size: 10px;
+  margin-left: 236px;
+  margin-right: 222px;
+  margin-top: 10px;
 }
 
 h4 {
-  margin-left: 117px;
+  margin-left: 236px;
   margin-top: -40px;
   float: left;
   padding: 5px;
@@ -149,9 +155,9 @@ h4 {
 }
 
 h5 {
-  margin-right: 86px;
+  margin-right: 262px;
   float: right;
-  margin-top: -49px;
+  margin-top: -33px;
   color: white;
 }
 
@@ -293,8 +299,9 @@ body {
   #liste {
     margin-top: 380px;
   }
-  #liste #listeTitle {
+  #liste #listeT {
     width: 100%;
+    margin-left: 0px;
   }
   .container img {
     width: 100%;
@@ -320,13 +327,13 @@ body {
         -ms-flex-order: 1;
             order: 1;
   }
-  #list #listeTitle #name {
+  #list #listeT #name {
     margin-left: 50px;
   }
-  #list #listeTitle #date {
+  #list #listeT #datee {
     margin-right: 20px;
   }
-  #list #listeTitle #time {
+  #list #listeT #time {
     margin-right: 80px;
   }
   .contact {

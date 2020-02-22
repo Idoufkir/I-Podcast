@@ -17,7 +17,7 @@ class LinkedList {
         var div = document.createElement('div');
 
         var div2 =document.createElement("div");
-        div2.setAttribute("id","listeTitle");
+        div2.setAttribute("id","listeT");
 
         // CRATE H1
         var h1 = document.createElement('h1');

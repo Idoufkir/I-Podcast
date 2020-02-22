@@ -77,11 +77,12 @@ $black: black;
     font-size: 20px;
     margin-left: 25px;
     color: rgb(243, 236, 236);
-    a{
+
+    a {
         text-decoration: none;
-        color:rgb(53, 207, 200)
+        color: rgb(53, 207, 200)
     }
-    
+
 }
 
 
@@ -119,24 +120,32 @@ $black: black;
     font-size: 10px;
 
 }
-#liste #list h4{
-  margin-left:0;
-}
-#liste #list h5{
-  margin-top:-28px;
-  margin-right:5px;
-  }
 
-#liste #listeTitle {
+#liste #list h4 {
+    margin-left: 0;
+}
+
+#liste #list h5 {
+    margin-top: -28px;
+    margin-right: 5px;
+}
+
+#liste #listeT {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    margin-left: 236px;
+    margin-right: 222px;
+     margin-top: 10px;
+
 
 }
 
 h4 {
-    margin-left: 117px;
+    margin-left: 236px;
     margin-top: -40px;
     float: left;
     padding: 5px;
@@ -145,9 +154,9 @@ h4 {
 }
 
 h5 {
-    margin-right: 86px;
+    margin-right: 262px;
     float: right;
-    margin-top: -49px;
+    margin-top: -33px;
     color: white;
 }
 
@@ -182,7 +191,8 @@ h5 {
     font-size: 20px;
 
 }
-.input2{
+
+.input2 {
     margin-top: -1px;
 }
 
@@ -195,7 +205,7 @@ h5 {
     align-items: center;
     width: 600px;
     margin-top: 10px;
-   
+
     color: white;
     font-size: 20px;
 
@@ -246,61 +256,72 @@ body {
 
 //medias query
 @media screen and (max-width: 992px) {
-    .container{
+    .container {
         width: 100%;
         flex-direction: column;
         order: 0;
     }
-    #liste{
+
+    #liste {
         margin-top: 380px;
     }
-    #liste #listeTitle{
+
+    #liste #listeT {
         width: 100%;
-        
+        margin-left: 0px;
+
     }
+
     .container img {
         width: 100%;
         height: 100%;
-       margin-left: 0;
-       margin-top: 0;
+        margin-left: 0;
+        margin-top: 0;
     }
-    .container .text{
+
+    .container .text {
         margin-top: 0;
         text-align: center;
     }
-    .conatiner .text h1{
+
+    .conatiner .text h1 {
         text-align: center;
     }
-    .container .text .p2{
+
+    .container .text .p2 {
         margin-left: 0;
     }
 
 
-    #list{
-    right: 34%;
-    position: relative;
-    width: 100%;
-    order: 1;
+    #list {
+        right: 34%;
+        position: relative;
+        width: 100%;
+        order: 1;
     }
-    #list #listeTitle #name{
+
+    #list #listeT #name {
         margin-left: 50px;
     }
-    
-    #list #listeTitle #date{
+
+    #list #listeT #datee {
         margin-right: 20px;
     }
-    #list #listeTitle #time{
+
+    #list #listeT #time {
         margin-right: 80px;
     }
-  
+
     .contact {
         float: left;
         margin-top: 38px;
         margin-left: 180px;
     }
-    .inputs{
+
+    .inputs {
         width: 100%;
     }
+
     .arrows {
         width: 100%;
         margin-left: -20px;
@@ -309,22 +330,18 @@ body {
     }
 }
 
-
-
-
-
-
-
 @media screen and (max-width: 700px) {
- 
+
     .contact {
         margin-left: 125px;
     }
+
     .input {
         margin-left: 15px;
     }
+
     .arrows {
         margin-left: 146px;
     }
-    
+
 }
