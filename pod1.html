@@ -9,15 +9,15 @@
 <body>
 
    <!-- menu -->
-   <nav class="navbar">
-    <img class="logo" src="logo.png">
-    <ul>
-        <li><a  href="pod1.html">Home</a></li>
-        <li><a class="active" href="index.html">POD1</a></li>
-        <li><a href="#">POD2</a></li>
-        <li><a href="#">POD3</a></li>
-    </ul>
-</nav>
+    <nav class="navbar">
+        <img class="logo" src="logo.png">
+        <ul>
+            <li><a class="active" href="AYYOUB/index.html">Home</a>
+            <li><a href="pod1.html">POD1</a></li>
+            <li><a href="#">POD2</a></li>
+            <li><a href="#">POD3</a></li>
+        </ul>
+    </nav>
 
     <!-- //container -->
     <div class="container">
@@ -39,38 +39,38 @@
         <h6>Facebook : <a href=""> facebook page </a></h6>
         <h6>iTunes : <a href=""> https://podcasts.apple.co... </a></h6>
     </div>
-    <!-- //liste -->
-    <div id="liste">
-      <div id="list">
-
+      <!-- //liste -->
+      <div id="liste">
+        <div id="list" onclick="liste1()">
+  
+            <div id = "listeT">
+              <h1 id="name">Sam Raimi to Direct Dr. Strange 2</h1>
+              <h1 id="datee">17 jan </h1>
+              <h1 id="time">77:30</h1>
+            </div>
+            <h4>Description</h4>
+            <h5> #TV & Film, #avengers</h5>
+  
+      </div> 
+      <div id="list" onclick="liste2()">
           <div id = "listeT">
-            <h1 id="name">Sam Raimi to Direct Dr. Strange 2</h1>
-            <h1 id="datee">17 jan </h1>
-            <h1 id="time">77:30</h1>
+              <h1 id="name">Disney+ Endgame deleted scenes part 2 </h1>
+              <h1 id="datee">20 jan</h1>
+              <h1 id="time">17:58</h1>
           </div>
           <h4>Description</h4>
-          <h5> #TV & Film, #avengers</h5>
-
-    </div> 
-    <div id="list">
-        <div id = "listeT">
-            <h1 id="name">Disney+ Endgame deleted scenes part 2 </h1>
-            <h1 id="datee">20 jan</h1>
-            <h1 id="time">17:58</h1>
-        </div>
-        <h4>Description</h4>
-        <h5>#from, #home, #infinity</h5>  
-        </div> 
-    <div id="list">
-        <div id = "listeT">
-            <h1 id="name">Sam Raimi to Direct Dr. Strange 2</h1>
-            <h1 id="datee">17 Feb </h1>
-            <h1 id="time">77:30</h1>
-          </div>
-          <h4>Description</h4>
-          <h5> #TV & Film, #avengers</h5>  
-        </div>  
-    </div>
+          <h5>#from, #home, #infinity</h5>  
+          </div> 
+      <div id="list" onclick="liste3()">
+          <div id = "listeT">
+              <h1 id="name">Star Wars is better than Star Trek </h1>
+              <h1 id="datee">1 Dec </h1>
+              <h1 id="time">12:13</h1>
+            </div>
+            <h4>A just for fun episode.</h4>
+            <h5>#trek, #versus, #wars</h5>  
+          </div>  
+      </div>
 
     <!-- input Music -->
     <div class="inputs">
@@ -93,7 +93,7 @@
 
 <!-- //arrows -->
     <div class="arrows">
-        <i onclick="prev()" class="fa fa-chevron-left" style="font-size:50px;color: #2b8179;"></i>
+        <i onclick="prev()" class="fa fa-chevron-left" style="font-size:40px;color: #2b8179;"></i>
         <audio controls id="audio" >
        <source></audio>
         <i onclick="next()" class="fa fa-chevron-right" style="font-size:50px;color: #2b8179;"></i>

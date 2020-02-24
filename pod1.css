@@ -1,23 +1,29 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+body {
+  background: url(bg0.jpg);
+  background-repeat: repeat;
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+}
+
 .navbar {
-  /* position: fixed; */
   height: 80px;
-  width: 100%;
-  /* top: 0; */
-  /* left: 0; */
   background: rgba(0, 0, 0, 0.4);
+  margin: -8px;
 }
 
 .navbar .logo {
   width: 200px;
   height: auto;
   margin-left: 10px;
-  /* padding: 10px 100px; */
+  margin-top: 10px;
 }
 
 .navbar ul {
   float: right;
-  margin-right: 20px;
+  margin: 0px;
+  margin-right: 26px;
 }
 
 .navbar ul li {
@@ -28,7 +34,7 @@
 }
 
 .navbar ul li a {
-  font-size: 20px;
+  font-size: 18px;
   font-family: 'Roboto', sans-serif;
   color: white;
   padding: 6px 13px;
@@ -40,11 +46,9 @@
 .navbar ul li a.active,
 .navbar ul li a:hover {
   background: red;
-  border-radius: 2px;
 }
 
 .container {
-  margin-top: 69px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -98,7 +102,6 @@
   margin-top: -395px;
   margin-right: 238px;
   background: #7dbbb8;
-  border-radius: 60px;
   padding: 70px;
   font-size: 29px;
   padding-top: 32px;
@@ -172,6 +175,7 @@ h5 {
       -ms-flex-pack: center;
           justify-content: center;
   margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 .arrows i {
@@ -271,6 +275,7 @@ h5 {
   font-size: 15px;
   width: 200px;
   margin-left: 20px;
+  color: white;
 }
 
 .icon {
@@ -278,11 +283,6 @@ h5 {
   width: 20px;
   height: 20px;
   float: left;
-}
-
-body {
-  background-image: url(bg0.jpg);
-  overflow-x: hidden;
 }
 
 @media screen and (max-width: 992px) {
@@ -305,9 +305,8 @@ body {
   }
   .container img {
     width: 100%;
-    height: 100%;
     margin-left: 0;
-    margin-top: 0;
+    margin-top: 10px;
   }
   .container .text {
     margin-top: 0;
@@ -317,7 +316,8 @@ body {
     text-align: center;
   }
   .container .text .p2 {
-    margin-left: 0;
+    margin-top: 60px;
+    margin-left: 0px;
   }
   #list {
     right: 34%;
@@ -338,14 +338,13 @@ body {
   }
   .contact {
     float: left;
-    margin-top: 38px;
+    margin-top: 12px;
     margin-left: 180px;
   }
   .inputs {
     width: 100%;
   }
   .arrows {
-    width: 100%;
     margin-left: -20px;
     position: relative;
     right: -2%;
@@ -354,13 +353,30 @@ body {
 
 @media screen and (max-width: 700px) {
   .contact {
-    margin-left: 125px;
+    margin-left: 190px;
   }
   .input {
     margin-left: 15px;
   }
   .arrows {
-    margin-left: 146px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+  }
+  .container .text .p2 {
+    margin-top: 60;
+  }
+  .container img {
+    width: 61%;
+    margin-top: 10px;
+    height: 339px;
+    margin-left: 135px;
+  }
+  .navbar ul {
+    float: right;
+    margin-right: 20px;
+  }
+  .navbar .logo {
+    margin-left: 170px;
   }
 }
 /*# sourceMappingURL=pod1.css.map */

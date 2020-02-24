@@ -15,6 +15,7 @@ class LinkedList {
         var liste = document.getElementById('liste');
         // CREATE NEW DIV
         var div = document.createElement('div');
+        div.setAttribute("id","list");
 
         var div2 =document.createElement("div");
         div2.setAttribute("id","listeT");
@@ -124,7 +125,23 @@ function prev() {
     list.prev();
     document.getElementById("audio").src = list.showCurrent();
 }
+function liste1() {
+    var aud = document.getElementById("audio");
+    aud.src="1.mp3";
+    aud.autoplay= true;
+}
+function liste2() {
+    var aud = document.getElementById("audio");
+    aud.src="2.mp3";
+    aud.autoplay= true;
+}
+function liste3() {
+    var aud = document.getElementById("audio");
+    aud.src="3.mp3";
+    aud.autoplay= true;
+}
 
-
+// call add method by defaut
+document.getElementById("audio").autoplay=true;
 
 
