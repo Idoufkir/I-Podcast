@@ -141,6 +141,39 @@ function liste3() {
     aud.autoplay= true;
 }
 
+
+// Pod 2 
+function liste4() {
+    var aud = document.getElementById("audio");
+    aud.src="4.mp3";
+    aud.autoplay= true;
+}
+function liste5() {
+    var aud = document.getElementById("audio");
+    aud.src="5.mp3";
+    aud.autoplay= true;
+}
+function liste6() {
+    var aud = document.getElementById("audio");
+    aud.src="6.mp3";
+    aud.autoplay= true;
+}
+// Pod  
+function liste7() {
+    var aud = document.getElementById("audio");
+    aud.src="7.mp3";
+    aud.autoplay= true;
+}
+function liste8() {
+    var aud = document.getElementById("audio");
+    aud.src="8.mp3";
+    aud.autoplay= true;
+}
+function liste9() {
+    var aud = document.getElementById("audio");
+    aud.src="9.mp3";
+    aud.autoplay= true;
+}
 // call add method by defaut
 document.getElementById("audio").autoplay=true;
 
