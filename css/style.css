@@ -8,11 +8,11 @@ box-sizing: border-box;
 }
 		
 body{
-	background: url(image/bg0.jpg);
+	background: url(/image/bg0.jpg);
 	background-repeat: repeat;
 }
 .wrapper{
-	background: url(image/bg0.jpg);
+	background: url(/image/bg0.jpg);
 	background-repeat: repeat;
 	background-size: cover;
 	height: 100vh;
