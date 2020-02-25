@@ -1,9 +1,12 @@
 
-*{
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
+		/* 
+*{ 
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+
 }
+		*/
 body{
 	background: url(image/bg0.jpg);
 	background-repeat: repeat;
@@ -15,42 +18,45 @@ body{
 	height: 100vh;
 	background-position: center;
 }
-.navbar{
-	/* position: fixed; */
-	height: 80px;
-	width: 100%;
-	/* top: 0; */
-	/* left: 0; */
-	background: rgba(0,0,0,0.4);
+.navbar {
+  height: 80px;
+  background: rgba(0, 0, 0, 0.4);
+  margin: -8px;
 }
-.navbar .logo{
-	width: 200px;
-	height: auto;
-	margin-left: 10px;
-	margin-top: 11px;
-	/* padding: 10px 100px; */
+
+.navbar .logo {
+  width: 200px;
+  height: auto;
+  margin-left: 10px;
+  margin-top: 10px;
 }
-.navbar ul{
-	float: right;
-	margin-right: 20px;
+
+.navbar ul {
+  float: right;
+  margin: 0px;
+  margin-right: 26px;
 }
-.navbar ul li{
-	list-style: none;
-	margin: 0 8px;
-	display: inline-block;
-	line-height: 80px;
+
+.navbar ul li {
+  list-style: none;
+  margin: 0 8px;
+  display: inline-block;
+  line-height: 80px;
 }
-.navbar ul li a{
-	font-size: 20px;
-	font-family: 'Roboto', sans-serif;
-	color: white;
-	padding: 6px 13px;
-	text-decoration: none;
-	transition: .4s;
+
+.navbar ul li a {
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  padding: 6px 13px;
+  text-decoration: none;
+  -webkit-transition: .4s;
+  transition: .4s;
 }
+
 .navbar ul li a.active,
-.navbar ul li a:hover{
-	background: red;
+.navbar ul li a:hover {
+  background: red;
 }
 .center {
 	display: flex;
@@ -295,10 +301,14 @@ margin-top: 50px;
 	color: #fff;
 
 }
+
+/*
 * {
     margin: 0;
     padding: 0;
 }
+
+*/
 .global {
     display: flex;
     flex-wrap: wrap;

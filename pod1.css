@@ -58,7 +58,7 @@ body {
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  background-color: #bbbb;
+  background-color: #bbb;
 }
 
 .container img {
@@ -91,10 +91,10 @@ body {
 }
 
 .p2 {
-  margin-top: 130px;
-  font-size: 30px;
-  margin-left: -230px;
-  color: black;
+  font-size: 20px;
+margin-left: 20px;
+  color: #551A8B;
+  text-align: center;
 }
 
 .contact {
