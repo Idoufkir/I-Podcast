@@ -174,15 +174,13 @@ body{
     width: 100%;
         margin-top: 0px;
 }
-}
   .test3 p {
 	position: relative;
 	color: #fff;
 	text-transform: uppercase;
 	/* bottom: 10px; */
 	vertical-align: middle;
-
-  }
+}
   .inputs{
 	display: flex;
 	justify-content: space-around;
